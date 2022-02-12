@@ -1,0 +1,16 @@
+[package]
+name = "cargo-example"
+description = "An easy-to-use example runner for rust crates"
+version = "0.2.1"
+authors = ["Marius Brandt <marius.brandt@hotmail.com>"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/BrandtM/cargo-example"
+readme = "README.md"
+
+[dependencies]
+reqwest = "0.9"
+clap = "2.33"
+serde = { version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+git2 = "0.9"
